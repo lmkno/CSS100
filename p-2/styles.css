@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: hsl(30, 38%, 92%);
+}
+.container{
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+.card{
+  display: flex;
+  width: 600px;
+  border-radius: 20px;
+  background-color: white;
+  align-items: center;
+}
+
+
+.image img{
+  width: 300px;
+  display: block;
+  margin: 0;
+  border-radius: 20px 0 0 20px;
+}
+.text{
+  padding: 20px;
+}
+
+.item-name {
+  font-family: Montserrat;
+  font-weight: 400;
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 2.5px;
+  font-size: 0.8rem;
+  padding-bottom: 20px;
+}
+
+.text h1{
+  font-family: Fraunces;
+  line-height: 0.9;
+  padding-bottom: 20px;
+}
+
+.text p{
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 1.5;
+  color: hsl(228, 12%, 48%);
+  font-size: 0.8rem;
+  padding-bottom: 20px;
+
+}
+
+.dis-price h1{
+  color: hsl(158, 36%, 37%);
+  padding-bottom: 20px;
+  display: inline-block;
+}
+
+.dis-price p{
+  text-decoration: line-through;
+  display: inline;
+  padding: 0 0 0 20px;
+}
+
+
+button{
+  width: 80%;
+  font-family: Montserrat;
+  color: White;
+  font-weight: 600;
+  background: hsl(158, 36%, 37%);
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: none;
+}
